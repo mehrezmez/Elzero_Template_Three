@@ -343,6 +343,7 @@ h3 {
 .main-head {
     height: 100vh;
     display: flex;
+    min-height: fill-available;
 }
 .main-head .container {
     display: flex;
