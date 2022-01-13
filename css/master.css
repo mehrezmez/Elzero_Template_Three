@@ -342,6 +342,7 @@ h3 {
 /* start main-head */
 .main-head {
     height: 100vh;
+    min-height: -webkit-fill-available;
     display: flex;
 }
 .main-head .container {
