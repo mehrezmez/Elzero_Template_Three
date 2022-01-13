@@ -341,9 +341,13 @@ h3 {
 /* end head */
 /* start main-head */
 .main-head {
-    height: 100vh;
+    min-height: 100vh;
     display: flex;
-    min-height: fill-available;
+}
+@media(max-width: 767px) {
+	.main-head {
+	    min-height: -webkit-fill-available;
+	}
 }
 .main-head .container {
     display: flex;
